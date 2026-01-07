@@ -59,18 +59,28 @@ The data was provided in an Excel file and required cleaning before analysis.
      * `MAX`, `MIN`
      * `IF`
      * `COUNTIF`, `AVERAGEIF`
+     * `XLOOKUP`, `ROUNDDOWN`
    * Grouped and analyzed data by department and performance metrics
 
 4. **Answered Business Questions**
 
-   * Total number of employees
+   * Total number of employees -239
+     =COUNT(Dataset!A:A)
    * Employee count per department
+     =COUNTIF(Dataset!G:G,'Task-Solution'!C2)
    * Total and average salary
+     =SUM(Dataset!R:R), =AVERAGEIF(Dataset!G:G,'Task-Solution'!C2,Dataset!R:R)
    * Highest and lowest salaries
+     =MAX(Dataset!R:R), =MIN(Dataset!R:R)
    * Employees with performance scores above 80
+     =COUNTIF(Dataset!S:S,">80")
    * Average employee tenure
-   * Department with the longest average tenure
-
+     =AVERAGE(Dataset!N:N)
+   * Employee Age Range
+     =XLOOKUP(H2,'Age Range'!A:A,'Age Range'!B:B)
+   * Employee Lenght of Stay (LOS) Range
+     =XLOOKUP(N2,'LOS Range'!A:A,'LOS Range'!B:B)
+     
 ---
 
 ## Results
@@ -100,6 +110,6 @@ No additional tools or installations are required.
 ### Author
 
 **Taiwo Adeyemi**
-*Data Analyst | Excel | SQL | Power BI*
+*Data Analyst | Excel | SQL | Python | Power BI*
 
 ---
