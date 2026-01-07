@@ -2,19 +2,21 @@
 Excel for Data Analytics. An assessment project submitted during a training by Interswitch Group for the Job Shadowing 2.0 programme.
 ---
 
-# Excel Data Analytics Project – HR Case Study
+---
+
+# Excel Data Analytics Project – HR Workforce Analysis
 
 ## Overview
 
-This project demonstrates how Microsoft Excel can be used to clean data, analyze workforce information, and answer key business questions using built-in Excel functions. The analysis focuses on HR data to generate insights that support workforce planning, salary analysis, and employee performance evaluation.
+This project showcases practical **data analytics skills using Microsoft Excel** to clean, analyze, and interpret HR workforce data. The analysis focuses on answering real-world business questions related to **employee distribution, salary structure, performance evaluation, and workforce tenure**.
 
-The goal of the project is to showcase strong foundational data analytics skills using Excel, including data cleaning, logical analysis, and business-focused reporting.
+The project demonstrates proficiency in **data cleaning, Excel functions, business analysis, and insight generation**, making it relevant for **Data Analyst, HR Analyst, and Business Analyst** roles.
 
 ---
 
 ## Dataset
 
-The dataset contains employee-level HR information, including:
+The dataset contains structured HR employee data, including:
 
 * Employee ID
 * Department
@@ -23,93 +25,96 @@ The dataset contains employee-level HR information, including:
 * Performance Score
 * Hire Date
 
-The data was provided in an Excel file and required cleaning before analysis.
+The dataset required preprocessing to ensure accuracy and consistency before analysis.
 
 ---
 
-## Tools
+## Tools & Skills
 
-* **Microsoft Excel**
+**Tools**
 
-  * Data Cleaning
-  * Excel Functions
-  * Basic Aggregation & Analysis
+* Microsoft Excel
+
+**Key Skills Demonstrated**
+
+* Data Cleaning & Validation
+* Exploratory Data Analysis (EDA)
+* Business Problem Solving
+* Workforce & HR Analytics
+* Data Aggregation & Reporting
+
+**Excel Functions Used**
+
+* `COUNT`, `COUNTA`
+* `SUM`, `AVERAGE`
+* `MAX`, `MIN`
+* `IF`
+* `COUNTIF`, `AVERAGEIF`
 
 ---
 
-## Steps
+## Project Steps
 
-1. **Opened the Dataset**
+1. **Data Exploration**
 
-   * Reviewed structure, columns, and data types
-   * Identified missing values and inconsistencies
+   * Reviewed dataset structure and column integrity
+   * Identified missing values, duplicates, and formatting issues
 
 2. **Data Cleaning**
 
-   * Removed duplicates
-   * Handled missing and inconsistent entries
-   * Standardized column formats (dates, numbers, text)
+   * Removed duplicates and irrelevant records
+   * Standardized salary, date, and numeric fields
+   * Ensured consistency across departments and metrics
 
-3. **Data Analysis Using Excel Functions**
+3. **Data Analysis**
 
-   * Used functions such as:
+   * Calculated total and department-level employee counts
+   * Analyzed salary distribution and averages by department
+   * Identified highest and lowest salaries
+   * Evaluated employee performance scores
+   * Analyzed employee tenure and retention trends
 
-     * `COUNT`, `COUNTA`
-     * `SUM`, `AVERAGE`
-     * `MAX`, `MIN`
-     * `IF`
-     * `COUNTIF`, `AVERAGEIF`
-     * `XLOOKUP`, `ROUNDDOWN`
-   * Grouped and analyzed data by department and performance metrics
+4. **Business Question Resolution**
 
-4. **Answered Business Questions**
-
-   * Total number of employees -239
-     =COUNT(Dataset!A:A)
+   * Number of employees in the organization
    * Employee count per department
-     =COUNTIF(Dataset!G:G,'Task-Solution'!C2)
-   * Total and average salary
-     =SUM(Dataset!R:R), =AVERAGEIF(Dataset!G:G,'Task-Solution'!C2,Dataset!R:R)
-   * Highest and lowest salaries
-     =MAX(Dataset!R:R), =MIN(Dataset!R:R)
+   * Total and average salary across departments
+   * Highest and lowest salary in the organization
    * Employees with performance scores above 80
-     =COUNTIF(Dataset!S:S,">80")
    * Average employee tenure
-     =AVERAGE(Dataset!N:N)
-   * Employee Age Range
-     =XLOOKUP(H2,'Age Range'!A:A,'Age Range'!B:B)
-   * Employee Lenght of Stay (LOS) Range
-     =XLOOKUP(N2,'LOS Range'!A:A,'LOS Range'!B:B)
-     
+   * Department with the longest average tenure
+
 ---
 
-## Results
+## Results & Business Impact
 
-Key insights generated from the analysis include:
+* Provided clear insights into **workforce distribution and departmental structure**
+* Identified **salary patterns and compensation gaps**
+* Highlighted **high-performing employees** based on performance scores
+* Delivered tenure insights to support **retention and workforce planning strategies**
 
-* Clear visibility into workforce size and departmental distribution
-* Salary trends across departments
-* Identification of high-performing employees
-* Insights into employee tenure and retention patterns
-
-These findings can support HR decision-making, budgeting, and workforce planning.
+These insights enable HR teams to make **data-driven decisions** around compensation, performance management, and workforce optimization.
 
 ---
 
 ## How to Run
 
-1. Download or clone this repository
-2. Open the Excel file using **Microsoft Excel**
-3. Review the cleaned dataset and analysis sheets
-4. Explore formulas and calculations used to answer each business question
+1. Download or clone the repository
+2. Open the Excel file in **Microsoft Excel**
+3. Navigate through the cleaned data and analysis sheets
+4. Review formulas and calculations used to derive insights
 
-No additional tools or installations are required.
+No additional software or setup is required.
 
 ---
 
-### Author
+## Author
 
 **Taiwo Adeyemi**
-*Data Analyst | Excel | SQL | Python | Power BI*
+Data Analyst | Excel | SQL | Python | Power BI
+Open to **remote and international opportunities**
+
+---
+
 
 ---
